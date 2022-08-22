@@ -7,7 +7,7 @@ node {
         checkout scm
     }
 
-    stage('Build image') {
+    stage('Build image1') {
   
        app = docker.build("clovisleinyuy/test")
     }
